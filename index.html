@@ -1,0 +1,27 @@
+﻿<!DOCTYPE html>
+<html ng-app="MyApp">
+
+  <head>
+    <script src="js/angular.min.js"></script>
+    <script src="js/angular-route.js"></script>
+    
+    <script src="scripts/app.js"></script>    
+  </head>
+
+  <body>
+    <a href="#/">Main Page</a>
+    <br />
+    <a href="#/red">Red page</a>
+    <br />
+    <a href="#/green">Grren Page</a>
+    <br />
+    <a href="#/purple">Purple Page</a>
+      <br />
+      <a href="#/params/10">send id from this link</a>
+
+    <ng-view></ng-view>
+
+    <h2>Footer for common</h2>
+  </body>
+
+</html>
